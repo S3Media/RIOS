@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- WP: header.php → wp_head() replaces the <link> tags below (enqueue in functions.php) -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Signed House Plans</title>
+  <meta name="description" content="Have a question about our house plans? Contact Signed House Plans by phone at 813-591-0159 or email. Office hours Monday – Friday, 9:00 AM – 5:00 PM (EST).">
+  <link rel="canonical" href="https://signedhouseplans.com/contact/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="We're Here to Help! | Contact Signed House Plans">
+  <meta property="og:description" content="Have a question about our plans, need assistance, or just want to learn more? We'd love to hear from you.">
+  <meta property="og:image" content="https://signedhouseplans.com/assets/images/contact-hero-house.webp">
+  <meta property="og:url" content="https://signedhouseplans.com/contact/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap">
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://signedhouseplans.com/#organization",
+        "name": "Signed House Plans",
+        "url": "https://signedhouseplans.com/",
+        "logo": "https://signedhouseplans.com/assets/images/signed-house-plans-logo-white.webp",
+        "email": "jasmine_ochoa@riosarchitecture.com",
+        "telephone": "+1-813-591-0159",
+        "areaServed": { "@type": "State", "name": "Florida" },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-813-591-0159",
+          "email": "jasmine_ochoa@riosarchitecture.com",
+          "contactType": "customer service",
+          "areaServed": "US-FL",
+          "availableLanguage": "English",
+          "hoursAvailable": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "17:00"
+          }
+        }
+      },
+      {
+        "@type": "ContactPage",
+        "@id": "https://signedhouseplans.com/contact/#webpage",
+        "url": "https://signedhouseplans.com/contact/",
+        "name": "Contact Us | Signed House Plans",
+        "about": { "@id": "https://signedhouseplans.com/#organization" },
+        "breadcrumb": { "@id": "https://signedhouseplans.com/contact/#breadcrumb" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://signedhouseplans.com/contact/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://signedhouseplans.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://signedhouseplans.com/contact/" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="page-contact">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- WP: header.php -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-header__logo" href="index.html" aria-label="Signed House Plans home">
+        <img src="assets/images/signed-house-plans-logo-white.webp" alt="Signed House Plans" width="221" height="117">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="screen-reader-text">Menu</span>
+      </button>
+      <!-- WP: wp_nav_menu( array( 'theme_location' => 'primary' ) ) -->
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <ul class="primary-nav__list">
+          <li class="menu-item"><a href="index.html">Home</a></li>
+          <li class="menu-item"><a href="browse-plans.html">Browse Plans</a></li>
+          <li class="menu-item"><a href="how-it-works.html">How It Works</a></li>
+          <li class="menu-item"><a href="faq.html">FAQ</a></li>
+          <li class="menu-item current-menu-item"><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- /WP: header.php -->
+
+  <!-- WP: page-contact.php -->
+  <main id="main" class="site-main">
+
+    <!-- Hero -->
+    <section class="contact-hero" aria-labelledby="page-title">
+      <div class="container contact-hero__inner">
+        <div class="contact-hero__content">
+          <p class="eyebrow eyebrow--lg">Get in Touch</p>
+          <h1 id="page-title" class="contact-hero__title">We&rsquo;re Here to Help!</h1>
+          <p class="contact-hero__lead">Have a question about our plans, need assistance, or just want to learn more? We&rsquo;d love to hear from you. Reach out using the information below, and we&rsquo;ll get back to you as soon as possible.</p>
+        </div>
+        <figure class="contact-hero__media">
+          <img src="assets/images/contact-hero-house.webp" alt="Modern two-story Florida home with a dark garage door and palm trees" width="888" height="648" fetchpriority="high">
+        </figure>
+      </div>
+    </section>
+
+    <!-- Contact info -->
+    <section class="contact-info-wrap" aria-label="Contact information">
+      <div class="container">
+        <ul class="contact-info">
+          <li class="contact-info__item">
+            <svg class="contact-info__icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><rect x="5" y="10" width="38" height="28" rx="3" fill="none" stroke="currentColor" stroke-width="2.6"/><path d="m6 12 18 14 18-14M6 36l13-12M42 36 29 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+            <h2 class="contact-info__label">Email Us</h2>
+            <a class="contact-info__value contact-info__value--email" href="mailto:jasmine_ochoa@riosarchitecture.com">jasmine_ochoa@riosarchitecture.com</a>
+          </li>
+          <li class="contact-info__item">
+            <svg class="contact-info__icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M17.5 6.5 12 6c-3 0-6 3-6 6.5C6.5 28 20 41.5 35.5 42c3.5 0 6.5-3 6.5-6l-.5-5.5-8.5-3.5-4.5 4.5c-4.5-2-9.5-7-11.5-11.5L21.5 15Z" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round"/></svg>
+            <h2 class="contact-info__label">Call Us</h2>
+            <a class="contact-info__value contact-info__value--phone" href="tel:+18135910159">813-591-0159</a>
+          </li>
+          <li class="contact-info__item">
+            <svg class="contact-info__icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><circle cx="24" cy="24" r="18" fill="none" stroke="currentColor" stroke-width="2.6"/><path d="M24 13v11.5l7 4" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <h2 class="contact-info__label">Office Hours</h2>
+            <p class="contact-info__value contact-info__value--hours">Monday &ndash; Friday<br>9:00 AM &ndash; 5:00 PM (EST)</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Message -->
+    <section class="contact-message" aria-labelledby="message-title">
+      <div class="container contact-message__inner">
+        <div class="contact-message__intro">
+          <p class="eyebrow eyebrow--lg">Send Us a Message</p>
+          <h2 id="message-title" class="contact-message__title">Let&rsquo;s Talk About Your Dream Home</h2>
+          <p class="contact-message__lead">Whether you have a question about a specific plan, need help with your order, or want to discuss a custom design, we&rsquo;re here to help. Fill out the form and we&rsquo;ll be in touch soon!</p>
+          <ul class="checklist checklist--lg">
+            <li>Quick response times</li>
+            <li>Friendly and knowledgeable support</li>
+            <li>Help with plans, orders, and more</li>
+          </ul>
+        </div>
+
+        <!-- WP: replace with form plugin shortcode, e.g. [contact-form-7 id="…"] or [gravityform id="…"].
+             Field names below map 1:1 so the plugin form can reuse these classes. -->
+        <div class="contact-form-card">
+          <form class="contact-form" id="contact-form" action="#" method="post" novalidate>
+            <div class="form-field">
+              <label class="screen-reader-text" for="cf-name">Full Name (required)</label>
+              <input class="input" type="text" id="cf-name" name="full_name" placeholder="Full Name *" autocomplete="name" required>
+            </div>
+            <div class="form-field">
+              <label class="screen-reader-text" for="cf-email">Email Address (required)</label>
+              <input class="input" type="email" id="cf-email" name="email" placeholder="Email Address *" autocomplete="email" required>
+            </div>
+            <div class="form-field">
+              <label class="screen-reader-text" for="cf-phone">Phone Number</label>
+              <input class="input" type="tel" id="cf-phone" name="phone" placeholder="Phone Number" autocomplete="tel">
+            </div>
+            <div class="form-field">
+              <label class="screen-reader-text" for="cf-topic">How can we help you? (required)</label>
+              <select class="select input--select" id="cf-topic" name="topic" required>
+                <option value="" disabled selected>How can we help you? *</option>
+                <option value="plans">Question about a plan</option>
+                <option value="feasibility">Feasibility review</option>
+                <option value="signed-sealed">Signed &amp; sealed plans</option>
+                <option value="permitting">Permitting</option>
+                <option value="other">Something else</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label class="screen-reader-text" for="cf-message">Your Message (required)</label>
+              <textarea class="input input--textarea" id="cf-message" name="message" rows="5" placeholder="Your Message *" required></textarea>
+            </div>
+            <button class="btn btn--primary btn--block btn--lg" type="submit">Send Message
+              <svg class="btn__arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="contact-cta" aria-labelledby="contact-cta-title">
+      <img class="contact-cta__img" src="assets/images/contact-cta-blueprints.webp" alt="" width="668" height="492" loading="lazy">
+      <div class="container contact-cta__inner">
+        <svg class="contact-cta__icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M5 23 24 6l19 17M10 19v23h10V30h8v12h10V19" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+        <div class="contact-cta__body">
+          <h2 id="contact-cta-title" class="contact-cta__title">Ready to Get Started?</h2>
+          <p class="contact-cta__text">Browse our house plans and take the first step toward your dream home.</p>
+          <a class="btn btn--outline" href="browse-plans.html">Browse All Plans
+            <svg class="btn__arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- /WP: page-contact.php -->
+
+  <!-- WP: footer.php -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <a class="site-footer__logo" href="index.html" aria-label="Signed House Plans home">
+        <img src="assets/images/signed-house-plans-logo-white.webp" alt="Signed House Plans" width="221" height="117" loading="lazy">
+      </a>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul class="footer-nav__list">
+          <li><a href="browse-plans.html">Browse Plans</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--primary site-footer__cta" href="tel:+18135910159">Call 813-591-0159</a>
+    </div>
+    <div class="container site-footer__bottom">
+      <p>&copy; <span class="js-year">2026</span> Signed House Plans. All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- /WP: footer.php → wp_footer() -->
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

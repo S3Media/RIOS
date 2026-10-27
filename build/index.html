@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- WP: header.php → wp_head() replaces the <link> tags below (enqueue in functions.php) -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Signed House Plans | Permit-Ready Florida House Plans</title>
+  <meta name="description" content="Browse permit-ready Florida house plans by beds, baths, square footage and style. Our architectural team helps determine which plans fit your property. Call 813-591-0159.">
+  <link rel="canonical" href="https://signedhouseplans.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Get Started Now — Browse Our Plans | Signed House Plans">
+  <meta property="og:description" content="Explore our collection of premium house plans designed to fit your lifestyle and budget.">
+  <meta property="og:image" content="https://signedhouseplans.com/assets/images/home-hero-holloway.webp">
+  <meta property="og:url" content="https://signedhouseplans.com/">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap">
+  <link rel="preload" as="image" href="assets/images/home-hero-holloway.webp" media="(min-width: 1200px)">
+  <link rel="preload" as="image" href="assets/images/home-hero-holloway-mobile.webp" media="(max-width: 1199px)">
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://signedhouseplans.com/#organization",
+        "name": "Signed House Plans",
+        "url": "https://signedhouseplans.com/",
+        "logo": "https://signedhouseplans.com/assets/images/signed-house-plans-logo-white.webp",
+        "telephone": "+1-813-591-0159",
+        "areaServed": { "@type": "State", "name": "Florida" },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-813-591-0159",
+          "contactType": "customer service",
+          "areaServed": "US-FL",
+          "availableLanguage": "English"
+        }
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://signedhouseplans.com/#website",
+        "url": "https://signedhouseplans.com/",
+        "name": "Signed House Plans",
+        "publisher": { "@id": "https://signedhouseplans.com/#organization" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": { "@type": "EntryPoint", "urlTemplate": "https://signedhouseplans.com/browse-plans/?style={search_term_string}" },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://signedhouseplans.com/#webpage",
+        "url": "https://signedhouseplans.com/",
+        "name": "Signed House Plans | Permit-Ready Florida House Plans",
+        "isPartOf": { "@id": "https://signedhouseplans.com/#website" },
+        "about": { "@id": "https://signedhouseplans.com/#organization" },
+        "primaryImageOfPage": "https://signedhouseplans.com/assets/images/home-hero-holloway.webp"
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://signedhouseplans.com/#featured-plans",
+        "name": "Popular House Plans",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Modern Farmhouse", "url": "https://signedhouseplans.com/plans/modern-farmhouse/" },
+          { "@type": "ListItem", "position": 2, "name": "Modern Farmhouse", "url": "https://signedhouseplans.com/plans/modern-farmhouse-2/" },
+          { "@type": "ListItem", "position": 3, "name": "California Modern", "url": "https://signedhouseplans.com/plans/california-modern/" },
+          { "@type": "ListItem", "position": 4, "name": "Coastal Anwhaven", "url": "https://signedhouseplans.com/plans/coastal-anwhaven/" },
+          { "@type": "ListItem", "position": 5, "name": "Cora Residence", "url": "https://signedhouseplans.com/plans/cora-residence/" },
+          { "@type": "ListItem", "position": 6, "name": "Coastal and Residence", "url": "https://signedhouseplans.com/plans/coastal-and-residence/" },
+          { "@type": "ListItem", "position": 7, "name": "Drew Residence", "url": "https://signedhouseplans.com/plans/drew-residence/" },
+          { "@type": "ListItem", "position": 8, "name": "Farmhouse Residence", "url": "https://signedhouseplans.com/plans/farmhouse-residence/" }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="page-home">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- WP: header.php -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-header__logo" href="index.html" aria-label="Signed House Plans home">
+        <img src="assets/images/signed-house-plans-logo-white.webp" alt="Signed House Plans" width="221" height="117">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="screen-reader-text">Menu</span>
+      </button>
+      <!-- WP: wp_nav_menu( array( 'theme_location' => 'primary' ) ) -->
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        <ul class="primary-nav__list">
+          <li class="menu-item current-menu-item"><a href="index.html" aria-current="page">Home</a></li>
+          <li class="menu-item"><a href="browse-plans.html">Browse Plans</a></li>
+          <li class="menu-item"><a href="how-it-works.html">How It Works</a></li>
+          <li class="menu-item"><a href="faq.html">FAQ</a></li>
+          <li class="menu-item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- /WP: header.php -->
+
+  <!-- WP: front-page.php -->
+  <main id="main" class="site-main">
+
+    <!-- Hero -->
+    <section class="home-hero" aria-labelledby="home-hero-title">
+      <picture class="home-hero__picture">
+        <source media="(max-width: 1199px)" srcset="assets/images/home-hero-holloway-mobile.webp" width="1024" height="576">
+        <img class="home-hero__img" src="assets/images/home-hero-holloway.webp" alt="White craftsman-style bungalow with a covered front porch, stone-base columns and a green lawn" width="1424" height="840" fetchpriority="high">
+      </picture>
+      <div class="container home-hero__inner">
+        <div class="home-hero__content">
+          <p class="eyebrow">Residential House Plans</p>
+          <h1 id="home-hero-title" class="home-hero__title">Get Started Now&nbsp;&mdash; Browse Our Plans</h1>
+          <p class="home-hero__lead">Explore our collection of premium house plans designed to fit your lifestyle and budget. Whether you&rsquo;re looking for a cozy starter home, a spacious family home, or a modern retreat, we have the perfect plan for you. Browse and find your dream home today!</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         STATIC PLACEHOLDER — replaced by plugin later
+         Plugin hook: [shp_plan_search] / do_action('shp_plan_search')
+         Form submits GET to Browse Plans with: beds, baths, sqft, style, plan_type
+         ============================================================ -->
+    <section class="plan-search-wrap" aria-labelledby="plan-search-title">
+      <div class="container">
+        <div class="plan-search" id="shp-plan-search" data-shp-component="plan-search">
+          <h2 id="plan-search-title" class="plan-search__title">Find Your Perfect Plan</h2>
+          <p class="plan-search__intro">Use our search below to narrow down your options and find the house plan that best fits your needs.</p>
+          <form class="plan-search__form" action="browse-plans.html" method="get" role="search">
+            <div class="plan-search__field">
+              <label class="screen-reader-text" for="ps-beds">Bedrooms</label>
+              <select class="select" id="ps-beds" name="beds">
+                <option value="">Any Beds</option>
+                <option value="1">1+ Beds</option>
+                <option value="2">2+ Beds</option>
+                <option value="3">3+ Beds</option>
+                <option value="4">4+ Beds</option>
+                <option value="5">5+ Beds</option>
+              </select>
+            </div>
+            <div class="plan-search__field">
+              <label class="screen-reader-text" for="ps-baths">Bathrooms</label>
+              <select class="select" id="ps-baths" name="baths">
+                <option value="">Any Baths</option>
+                <option value="1">1+ Baths</option>
+                <option value="2">2+ Baths</option>
+                <option value="3">3+ Baths</option>
+                <option value="4">4+ Baths</option>
+              </select>
+            </div>
+            <div class="plan-search__field">
+              <label class="screen-reader-text" for="ps-sqft">Square footage</label>
+              <select class="select" id="ps-sqft" name="sqft">
+                <option value="">Any Sq Ft</option>
+                <option value="0-1500">Under 1,500 Sq Ft</option>
+                <option value="1500-2000">1,500 &ndash; 2,000 Sq Ft</option>
+                <option value="2000-2500">2,000 &ndash; 2,500 Sq Ft</option>
+                <option value="2500-3000">2,500 &ndash; 3,000 Sq Ft</option>
+                <option value="3000-">3,000+ Sq Ft</option>
+              </select>
+            </div>
+            <div class="plan-search__field">
+              <label class="screen-reader-text" for="ps-style">Style</label>
+              <select class="select" id="ps-style" name="style">
+                <option value="">Any Style</option>
+                <option value="modern">Modern</option>
+                <option value="farmhouse">Farmhouse</option>
+                <option value="coastal">Coastal</option>
+                <option value="craftsman">Craftsman</option>
+                <option value="contemporary">Contemporary</option>
+                <option value="ranch">Ranch</option>
+              </select>
+            </div>
+            <div class="plan-search__field">
+              <label class="screen-reader-text" for="ps-type">Plan type</label>
+              <select class="select" id="ps-type" name="plan_type">
+                <option value="">Any Plan Type</option>
+                <option value="single-story">Single Story</option>
+                <option value="two-story">Two Story</option>
+              </select>
+            </div>
+            <button class="btn btn--primary plan-search__submit" type="submit">Find Plans
+              <svg class="btn__arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- /STATIC PLACEHOLDER: plan search -->
+
+    <!-- Features -->
+    <section class="features" aria-label="Why choose our plans">
+      <div class="container">
+        <ul class="features__list">
+          <li class="feature">
+            <svg class="feature__icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M5 23 24 6l19 17M10 19v23h10V30h8v12h10V19" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></svg>
+            <h3 class="feature__title">Thoughtfully Designed</h3>
+            <p class="feature__text">Functional, stylish, and modern plans for every lifestyle and budget.</p>
+          </li>
+          <li class="feature">
+            <svg class="feature__icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M30 5H11a2 2 0 0 0-2 2v34a2 2 0 0 0 2 2h14M30 5l8 8v10M30 5v8h8M15 17h14M15 23h14M15 29h8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="35" cy="35" r="8" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="m31.5 35 2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <h3 class="feature__title">Perfect for Any Budget</h3>
+            <p class="feature__text">From cozy starter homes to large, luxury estates.</p>
+          </li>
+          <li class="feature">
+            <svg class="feature__icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M24 4 7 10v12c0 11 7.4 18.6 17 22 9.6-3.4 17-11 17-22V10L24 4Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="m16.5 24 5.5 5.5 10-11" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <h3 class="feature__title">Expertly Curated</h3>
+            <p class="feature__text">Our plans are designed by professional architects and designers.</p>
+          </li>
+          <li class="feature">
+            <svg class="feature__icon" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><path d="M3 9.5h21l1.5 2.5h8.5l1.5-1 2 5 3 6.5 3 7 1.5 5.5v5l-2 3h-2.5l-2.5-3-3-4.5-2-4-2-4v-4l-3-4-3.5-2h-4l-4-1.5-4.5-1-5 .5L3 15Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/></svg>
+            <h3 class="feature__title">Build Anywhere</h3>
+            <p class="feature__text">Get the perfect plan for your location, with code-friendly options and support.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         STATIC PLACEHOLDER — replaced by plugin later
+         Plugin hook: [shp_featured_plans count="8"] / do_action('shp_featured_plans')
+         Card markup (.plan-card) is the template the plugin loop should output.
+         ============================================================ -->
+    <section class="featured-plans" aria-labelledby="featured-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Featured Plans</p>
+            <h2 id="featured-title" class="section-head__title">Popular House Plans</h2>
+          </div>
+          <a class="text-link" href="browse-plans.html">View All Plans
+            <svg class="btn__arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+
+        <ul class="plan-grid" id="shp-featured-plans" data-shp-component="featured-plans">
+          <li class="plan-card">
+            <a class="plan-card__media" href="plans/modern-farmhouse.html" tabindex="-1" aria-hidden="true">
+              <img src="assets/images/plan-modern-farmhouse.webp" alt="" width="434" height="270" loading="lazy">
+            </a>
+            <div class="plan-card__body">
+              <h3 class="plan-card__title"><a href="plans/modern-farmhouse.html">Modern Farmhouse</a></h3>
+              <ul class="plan-card__specs">
+                <li>Beds: 4</li>
+                <li>Baths: 3</li>
+                <li>2,400 Sq Ft</li>
+              </ul>
+              <a class="btn btn--primary btn--block btn--sm" href="plans/modern-farmhouse.html" aria-label="View plan: Modern Farmhouse, 4 beds">View Plan
+                <svg class="btn__arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </li>
+          <li class="plan-card">
+            <a class="plan-card__media" href="plans/modern-farmhouse-2.html" tabindex="-1" aria-hidden="true">
+              <img src="assets/images/plan-modern-farmhouse-2.webp" alt="" width="436" height="270" loading="lazy">
+            </a>
+            <div class="plan-card__body">
+              <h3 class="plan-card__title"><a href="plans/modern-farmhouse-2.html">Modern Farmhouse</a></h3>
+              <ul class="plan-card__specs">
+                <li>Beds: 3</li>
+                <li>Baths: 2</li>
+                <li>1,850 Sq Ft</li>
+              </ul>
+              <a class="btn btn--primary btn--block btn--sm" href="plans/modern-farmhouse-2.html" aria-label="View plan: Modern Farmhouse, 3 beds">View Plan
+                <svg class="btn__arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </li>
+          <li class="plan-card">
+            <a class="plan-card__media" href="plans/california-modern.html" tabindex="-1" aria-hidden="true">
+              <img src="assets/images/plan-california-modern.webp" alt="" width="432" height="270" loading="lazy">
+            </a>
+            <div class="plan-card__body">
+              <h3 class="plan-card__title"><a href="plans/california-modern.html">California Modern</a></h3>
+              <ul class="plan-card__specs">
+                <li>Beds: 4</li>
+                <li>Baths: 3</li>
+                <li>2,650 Sq Ft</li>
+              </ul>
+              <a class="btn btn--primary btn--block btn--sm" href="plans/california-modern.html" aria-label="View plan: California Modern">View Plan
+                <svg class="btn__arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </li>
+          <li class="plan-card">
+            <a class="plan-card__media" href="plans/coastal-anwhaven.html" tabindex="-1" aria-hidden="true">
+              <img src="assets/images/plan-coastal-anwhaven.webp" alt="" width="436" height="270" loading="lazy">
+            </a>
+            <div class="plan-card__body">
+              <h3 class="plan-card__title"><a href="plans/coastal-anwhaven.html">Coastal Anwhaven</a></h3>
+              <ul class="plan-card__specs">
+                <li>Beds: 3</li>
+                <li>Baths: 2</li>
+                <li>1,900 Sq Ft</li>
+              </ul>
+              <a class="btn btn--primary btn--block btn--sm" href="plans/coastal-anwhaven.html" aria-label="View plan: Coastal Anwhaven">View Plan
+                <svg class="btn__arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </li>
+          <li class="plan-card">
+            <a class="plan-card__media" href="plans/cora-residence.html" tabindex="-1" aria-hidden="true">
+              <img src="assets/images/plan-cora-residence.webp" alt="" width="434" height="252" loading="lazy">
+            </a>
+            <div class="plan-card__body">
+              <h3 class="plan-card__title"><a href="plans/cora-residence.html">Cora Residence</a></h3>
+              <ul class="plan-card__specs">
+                <li>Beds: 4</li>
+                <li>Baths: 3</li>
+                <li>2,800 Sq Ft</li>
+              </ul>
+              <a class="btn btn--primary btn--block btn--sm" href="plans/cora-residence.html" aria-label="View plan: Cora Residence">View Plan
+                <svg class="btn__arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </li>
+          <li class="plan-card">
+            <a class="plan-card__media" href="plans/coastal-and-residence.html" tabindex="-1" aria-hidden="true">
+              <img src="assets/images/plan-coastal-and-residence.webp" alt="" width="436" height="252" loading="lazy">
+            </a>
+            <div class="plan-card__body">
+              <h3 class="plan-card__title"><a href="plans/coastal-and-residence.html">Coastal and Residence</a></h3>
+              <ul class="plan-card__specs">
+                <li>Beds: 4</li>
+                <li>Baths: 3</li>
+                <li>2,400 Sq Ft</li>
+              </ul>
+              <a class="btn btn--primary btn--block btn--sm" href="plans/coastal-and-residence.html" aria-label="View plan: Coastal and Residence">View Plan
+                <svg class="btn__arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </li>
+          <li class="plan-card">
+            <a class="plan-card__media" href="plans/drew-residence.html" tabindex="-1" aria-hidden="true">
+              <img src="assets/images/plan-drew-residence.webp" alt="" width="432" height="252" loading="lazy">
+            </a>
+            <div class="plan-card__body">
+              <h3 class="plan-card__title"><a href="plans/drew-residence.html">Drew Residence</a></h3>
+              <ul class="plan-card__specs">
+                <li>Beds: 4</li>
+                <li>Baths: 2</li>
+                <li>2,200 Sq Ft</li>
+              </ul>
+              <a class="btn btn--primary btn--block btn--sm" href="plans/drew-residence.html" aria-label="View plan: Drew Residence">View Plan
+                <svg class="btn__arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </li>
+          <li class="plan-card">
+            <a class="plan-card__media" href="plans/farmhouse-residence.html" tabindex="-1" aria-hidden="true">
+              <img src="assets/images/plan-farmhouse-residence.webp" alt="" width="436" height="252" loading="lazy">
+            </a>
+            <div class="plan-card__body">
+              <h3 class="plan-card__title"><a href="plans/farmhouse-residence.html">Farmhouse Residence</a></h3>
+              <ul class="plan-card__specs">
+                <li>Beds: 4</li>
+                <li>Baths: 2</li>
+                <li>2,545 Sq Ft</li>
+              </ul>
+              <a class="btn btn--primary btn--block btn--sm" href="plans/farmhouse-residence.html" aria-label="View plan: Farmhouse Residence">View Plan
+                <svg class="btn__arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- /STATIC PLACEHOLDER: featured plans -->
+
+    <!-- CTA -->
+    <section class="cta-band" aria-labelledby="cta-title">
+      <div class="container cta-band__inner">
+        <p class="eyebrow">Ready to Build?</p>
+        <h2 id="cta-title" class="cta-band__title">Ready to Get Started?</h2>
+        <p class="cta-band__text">Search for the perfect house plan and take the first step toward your dream home.</p>
+        <div class="cta-band__actions">
+          <a class="btn btn--outline" href="browse-plans.html">Browse All Plans
+            <svg class="btn__arrow" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M2 8h11M9 4l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a class="cta-band__phone" href="tel:+18135910159">or call 813-591-0159</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- /WP: front-page.php -->
+
+  <!-- WP: footer.php -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <a class="site-footer__logo" href="index.html" aria-label="Signed House Plans home">
+        <img src="assets/images/signed-house-plans-logo-white.webp" alt="Signed House Plans" width="221" height="117" loading="lazy">
+      </a>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul class="footer-nav__list">
+          <li><a href="browse-plans.html">Browse Plans</a></li>
+          <li><a href="how-it-works.html">How It Works</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--primary site-footer__cta" href="tel:+18135910159">Call 813-591-0159</a>
+    </div>
+    <div class="container site-footer__bottom">
+      <p>&copy; <span class="js-year">2026</span> Signed House Plans. All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- /WP: footer.php → wp_footer() -->
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
